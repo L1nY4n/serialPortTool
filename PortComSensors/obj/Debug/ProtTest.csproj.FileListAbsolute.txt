@@ -1,0 +1,63 @@
+E:\Desktop\Work\OneDrive\MyProjectCode\串口测试\NewPortTest\ProtTest\obj\Debug\PortDemo3.Form1.resources
+E:\Desktop\Work\OneDrive\MyProjectCode\串口测试\NewPortTest\ProtTest\obj\Debug\PortDemo3.Form2.resources
+E:\Desktop\Work\OneDrive\MyProjectCode\串口测试\NewPortTest\ProtTest\obj\Debug\ProtTest.Properties.Resources.resources
+E:\Desktop\Work\OneDrive\MyProjectCode\串口测试\NewPortTest\ProtTest\obj\Debug\ProtTest.csproj.GenerateResource.Cache
+E:\Desktop\Work\OneDrive\MyProjectCode\串口测试\NewPortTest\ProtTest\obj\Debug\PortDemo3.ConfigForm.resources
+E:\Desktop\Work\OneDrive\MyProjectCode\串口测试\NewPortTest\ProtTest\bin\Debug\ProtTest.exe.config
+E:\Desktop\Work\OneDrive\MyProjectCode\串口测试\NewPortTest\ProtTest\bin\Debug\ProtTest.exe
+E:\Desktop\Work\OneDrive\MyProjectCode\串口测试\NewPortTest\ProtTest\bin\Debug\ProtTest.pdb
+E:\Desktop\Work\OneDrive\MyProjectCode\串口测试\NewPortTest\ProtTest\obj\Debug\ProtTest.exe
+E:\Desktop\Work\OneDrive\MyProjectCode\串口测试\NewPortTest\ProtTest\obj\Debug\ProtTest.pdb
+C:\Users\L1nY4n\Documents\Tencent Files\980526724\FileRecv\串口通信\NewPortTest(1)\NewPortTest\ProtTest\bin\Debug\ProtTest.exe.config
+C:\Users\L1nY4n\Documents\Tencent Files\980526724\FileRecv\串口通信\NewPortTest(1)\NewPortTest\ProtTest\bin\Debug\ProtTest.exe
+C:\Users\L1nY4n\Documents\Tencent Files\980526724\FileRecv\串口通信\NewPortTest(1)\NewPortTest\ProtTest\bin\Debug\ProtTest.pdb
+C:\Users\L1nY4n\Documents\Tencent Files\980526724\FileRecv\串口通信\NewPortTest(1)\NewPortTest\ProtTest\obj\Debug\PortDemo3.ConfigForm.resources
+C:\Users\L1nY4n\Documents\Tencent Files\980526724\FileRecv\串口通信\NewPortTest(1)\NewPortTest\ProtTest\obj\Debug\PortDemo3.Form1.resources
+C:\Users\L1nY4n\Documents\Tencent Files\980526724\FileRecv\串口通信\NewPortTest(1)\NewPortTest\ProtTest\obj\Debug\PortDemo3.Form2.resources
+C:\Users\L1nY4n\Documents\Tencent Files\980526724\FileRecv\串口通信\NewPortTest(1)\NewPortTest\ProtTest\obj\Debug\ProtTest.Properties.Resources.resources
+C:\Users\L1nY4n\Documents\Tencent Files\980526724\FileRecv\串口通信\NewPortTest(1)\NewPortTest\ProtTest\obj\Debug\ProtTest.csproj.GenerateResource.Cache
+C:\Users\L1nY4n\Documents\Tencent Files\980526724\FileRecv\串口通信\NewPortTest(1)\NewPortTest\ProtTest\obj\Debug\ProtTest.csproj.CoreCompileInputs.cache
+C:\Users\L1nY4n\Documents\Tencent Files\980526724\FileRecv\串口通信\NewPortTest(1)\NewPortTest\ProtTest\obj\Debug\ProtTest.exe
+C:\Users\L1nY4n\Documents\Tencent Files\980526724\FileRecv\串口通信\NewPortTest(1)\NewPortTest\ProtTest\obj\Debug\ProtTest.pdb
+C:\Users\L1nY4n\Documents\Tencent Files\980526724\FileRecv\串口通信\NewPortTest(1)\NewPortTest\ProtTest\bin\Debug\zxing.dll
+C:\Users\L1nY4n\Desktop\NewPortTest\ProtTest\bin\Debug\ProtTest.exe.config
+C:\Users\L1nY4n\Desktop\NewPortTest\ProtTest\bin\Debug\ProtTest.exe
+C:\Users\L1nY4n\Desktop\NewPortTest\ProtTest\bin\Debug\ProtTest.pdb
+C:\Users\L1nY4n\Desktop\NewPortTest\ProtTest\obj\Debug\PortDemo3.ConfigForm.resources
+C:\Users\L1nY4n\Desktop\NewPortTest\ProtTest\obj\Debug\PortDemo3.Form1.resources
+C:\Users\L1nY4n\Desktop\NewPortTest\ProtTest\obj\Debug\PortDemo3.Form2.resources
+C:\Users\L1nY4n\Desktop\NewPortTest\ProtTest\obj\Debug\ProtTest.Properties.Resources.resources
+C:\Users\L1nY4n\Desktop\NewPortTest\ProtTest\obj\Debug\ProtTest.csproj.GenerateResource.Cache
+C:\Users\L1nY4n\Desktop\NewPortTest\ProtTest\obj\Debug\ProtTest.csproj.CoreCompileInputs.cache
+C:\Users\L1nY4n\Desktop\NewPortTest\ProtTest\obj\Debug\ProtTest.exe
+C:\Users\L1nY4n\Desktop\NewPortTest\ProtTest\obj\Debug\ProtTest.pdb
+C:\Users\L1nY4n\Desktop\NewPortTest\ProtTest\obj\Debug\ProtTest.csprojResolveAssemblyReference.cache
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\bin\Debug\ProtTest.exe.config
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\bin\Debug\ProtTest.exe
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\bin\Debug\ProtTest.pdb
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\obj\Debug\ProtTest.csprojResolveAssemblyReference.cache
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\obj\Debug\PortDemo3.ConfigForm.resources
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\obj\Debug\PortDemo3.Form2.resources
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\obj\Debug\ProtTest.Properties.Resources.resources
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\obj\Debug\ProtTest.csproj.GenerateResource.Cache
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\obj\Debug\ProtTest.csproj.CoreCompileInputs.cache
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\obj\Debug\ProtTest.exe
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\obj\Debug\ProtTest.pdb
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\bin\Debug\ProtTest.exe.manifest
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\bin\Debug\ProtTest.application
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\obj\Debug\ProtTest.exe.manifest
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComPrint\ProtTest\obj\Debug\ProtTest.application
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\obj\Debug\PortDemo3.Form2.resources
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\obj\Debug\ProtTest.Properties.Resources.resources
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\obj\Debug\ProtTest.csproj.GenerateResource.Cache
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\obj\Debug\ProtTest.csproj.CoreCompileInputs.cache
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\obj\Debug\ProtTest.exe
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\obj\Debug\ProtTest.pdb
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\bin\Debug\ProtTest.exe.config
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\bin\Debug\ProtTest.exe.manifest
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\bin\Debug\ProtTest.application
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\bin\Debug\ProtTest.exe
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\bin\Debug\ProtTest.pdb
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\obj\Debug\ProtTest.exe.manifest
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\obj\Debug\ProtTest.application
+C:\Users\ly\Desktop\PortCom_QRcodePrint\PortComSensors\obj\Debug\ProtTest.csprojResolveAssemblyReference.cache
