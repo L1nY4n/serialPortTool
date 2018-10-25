@@ -28,7 +28,6 @@ namespace SenserProj
         bool Alarming = false;
 
         //阈值查询状态
-        bool isGettingThreshold = false;
         Hashtable table = new Hashtable {
             { "ch4", false},
             { "h2s", false},
@@ -44,7 +43,8 @@ namespace SenserProj
             { "h2s","ff0300040001d015"},
             { "co","ff03000700012015"},
             { "o2","ff03000a0001b1d6"},
-            { "temp","ff03000d00010017"}
+            { "temp","ff03000d00010017"},
+            { "humi","ff03000e0001f017"},
 };
         /*读取阈值指令
          *  读取CH4上限 ff0300 2000 01 90 1E
@@ -115,6 +115,7 @@ namespace SenserProj
             {"temp_up","ff10002800010200" },
             {"temp_dw","ff10002900010200" },
         };
+
         //警报控制指令
         string alrm_on_cmd = "ff10001100010200012cb5";
         string alrm_off_cmd = "ff1000110001020000ed75";
@@ -237,6 +238,7 @@ namespace SenserProj
             label_co.Text = "一氧化碳(0-" + co_range + "PPM)";
             label_o2.Text = "氧气(0-" + o2_range + "%VOL)";
             label_temp.Text = "温度（0-" + temp_range + "℃）";
+            label_humi.Text = "湿度（0-"+ 100+"RH% ）";
 
 
 
@@ -385,6 +387,8 @@ namespace SenserProj
             txtStopBit.Enabled = isEnabled;
             btnCheck.Enabled = isEnabled;
             btnSend.Enabled = !isEnabled;
+
+
         }
 
         /// <summary>
@@ -1035,7 +1039,11 @@ namespace SenserProj
 
         public void OpenCalibrateForm(GasCalibration gc)
         {
-
+            if (!serialPort.IsOpen)
+            {
+                MessageBox.Show("串口未打开或连接异常","提示");
+                return;
+            }
             FormCalibrate fc = new FormCalibrate(gc, this);
             fc.Text = gc.title;
             fc.ShowDialog();
@@ -1047,7 +1055,7 @@ namespace SenserProj
             ch4.title = "甲烷校准";
             ch4.type = "ch4";
             ch4.time = 180;
-            ch4.cmd = "FF 10 00 30 00 01 02 00 00";
+            ch4.cmd = "ff1000 3100 0102";
             string[] descs = {
                 "1.首先保证传感器上电时间大于30分钟以。",
                 "2.使用50%LEL的CH4标气，流速是500ml/min，通过管路将气体通到传感器表面。",
@@ -1068,7 +1076,7 @@ namespace SenserProj
             h2s.title = "硫化氢校准";
             h2s.type = "h2s";
             h2s.time = 180;
-            h2s.cmd = "FF 10 00 30 00 01 02 00 01";
+            h2s.cmd = "ff1000 3200 0102";
             string[] descs = {
                 "1.首先保证传感器上电时间大于5min。",
                 "2.使用50ppm的H2S，流量在100ml/min左右，通过管路将气体通到传感器表面。",
@@ -1087,7 +1095,7 @@ namespace SenserProj
             co.title = "一氧化碳校准";
             co.type = "co";
             co.time = 210;
-            co.cmd = "FF 10 00 30 00 01 02 00 02";
+            co.cmd = "ff1000 3300 0102";
             string[] descs = {
                 "1.首先保证传感器上电时间大于5min。（长时间未使用的，需要老化24h）",
                 "2.使用200ppm的CO，流量在100ml/min左右，通过管路将气体通到传感器表面。",
@@ -1105,7 +1113,7 @@ namespace SenserProj
             o2.title = "氧气校准";
             o2.type = "o2";
             o2.time = 210;
-            o2.cmd = " FF 10 00 30 00 01 02 00 03";//校准O2:
+            o2.cmd = "ff 10 00 30 00 01 02 00 03";//校准O2:
             string[] descs = {
                 "1.模组上电老化24小时，如果已老化，可直接进行步骤2",
                 "2.老化完成后，断电，重新上电，开始计时三分钟半",

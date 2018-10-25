@@ -16,24 +16,24 @@
         "Entry"
         {
         "MsmKey" = "8:_5BAFDEBDC2D859A98C8465F537852F1C"
-        "OwnerKey" = "8:_A9C8CD5E530F423B8CBFA3CBBA50D163"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_63E4E48E77994AB4BF23F2C9E924A37C"
-        "OwnerKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_B76351217E4A4054AD6C46FD2B4AF7D5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_6E4F9027BB7A560A67A08FB87AA01E1A"
-        "OwnerKey" = "8:_A9C8CD5E530F423B8CBFA3CBBA50D163"
+        "OwnerKey" = "8:_B76351217E4A4054AD6C46FD2B4AF7D5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A9C8CD5E530F423B8CBFA3CBBA50D163"
+        "MsmKey" = "8:_A43EBD2A486D46E89CF59B21FC944BEE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B76351217E4A4054AD6C46FD2B4AF7D5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -46,7 +46,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A9C8CD5E530F423B8CBFA3CBBA50D163"
+        "OwnerKey" = "8:_B76351217E4A4054AD6C46FD2B4AF7D5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -65,14 +65,30 @@
         "IsReleaseOnly" = "11:FALSE"
         "OutputFilename" = "8:Debug\\SensorPackage.msi"
         "PackageFilesAs" = "3:2"
-        "PackageFileSize" = "3:-2147483648"
+        "PackageFileSize" = "3:0"
         "CabType" = "3:1"
-        "Compression" = "3:3"
+        "Compression" = "3:2"
         "SignOutput" = "11:FALSE"
         "CertificateFile" = "8:"
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -89,6 +105,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -149,26 +173,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_63E4E48E77994AB4BF23F2C9E924A37C"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\20181021120255678_easyicon_net_256.ico"
-            "TargetName" = "8:fac.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_B7752E2709DB44E6BF23ABF32B94B95A"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6E4F9027BB7A560A67A08FB87AA01E1A"
             {
             "AssemblyRegister" = "3:1"
@@ -198,6 +202,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A43EBD2A486D46E89CF59B21FC944BEE"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\20181021120255678_easyicon_net_256.ico"
+            "TargetName" = "8:fac.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_B7752E2709DB44E6BF23ABF32B94B95A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -256,8 +280,8 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SensorPackage"
-        "ProductCode" = "8:{312212C7-A502-4299-BF0D-0E7A7A7ACD25}"
-        "PackageCode" = "8:{846E854A-DC99-47AE-8705-77D7B9D5F9EB}"
+        "ProductCode" = "8:{BF475BDF-8F01-40BF-AB32-84A75728989C}"
+        "PackageCode" = "8:{C5C66FF0-658B-4563-97A1-398E9BF82358}"
         "UpgradeCode" = "8:{4DE9ECA7-7F58-4D10-A09C-F9C7062882D0}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -377,32 +401,32 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5C770379AD2F40D2960425F3C0B767E3"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_38F0462AC3E5463BB1B6925BCAEBF7D6"
             {
-            "Name" = "8:传感调试工具"
+            "Name" = "8:传感器测试工具"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_A9C8CD5E530F423B8CBFA3CBBA50D163"
-            "Folder" = "8:_87C3771E366E4F42BEAE1B40E0F28A3F"
+            "Target" = "8:_B76351217E4A4054AD6C46FD2B4AF7D5"
+            "Folder" = "8:_FC614B58EAD946E99F51B57A4F64C8BE"
             "WorkingFolder" = "8:_B7752E2709DB44E6BF23ABF32B94B95A"
-            "Icon" = "8:_63E4E48E77994AB4BF23F2C9E924A37C"
+            "Icon" = "8:_A43EBD2A486D46E89CF59B21FC944BEE"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_928C60D6DDFE4B08B11CD52FDE98B21D"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FA25769DDD7B45F9968AA4173F74AA96"
             {
-            "Name" = "8:传感调试工具"
+            "Name" = "8:传感器测试工具"
             "Arguments" = "8:"
-            "Description" = "8:winform tool by LinYan"
+            "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_A9C8CD5E530F423B8CBFA3CBBA50D163"
-            "Folder" = "8:_FC614B58EAD946E99F51B57A4F64C8BE"
+            "Target" = "8:_B76351217E4A4054AD6C46FD2B4AF7D5"
+            "Folder" = "8:_87C3771E366E4F42BEAE1B40E0F28A3F"
             "WorkingFolder" = "8:_B7752E2709DB44E6BF23ABF32B94B95A"
-            "Icon" = "8:_63E4E48E77994AB4BF23F2C9E924A37C"
+            "Icon" = "8:_A43EBD2A486D46E89CF59B21FC944BEE"
             "Feature" = "8:"
             }
         }
@@ -804,7 +828,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A9C8CD5E530F423B8CBFA3CBBA50D163"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_B76351217E4A4054AD6C46FD2B4AF7D5"
             {
             "SourcePath" = "8:..\\PortComSensors\\obj\\Debug\\Sensor_tool.exe"
             "TargetName" = "8:"

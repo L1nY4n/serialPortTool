@@ -29,3 +29,4 @@ C:\Users\L1nY4n\Documents\work\hardwork_client\PortComSensors\obj\Debug\Sensor_t
 C:\Users\L1nY4n\Documents\work\hardwork_client\PortComSensors\obj\Debug\Sensor_tool.exe
 C:\Users\L1nY4n\Documents\work\hardwork_client\PortComSensors\obj\Debug\Sensor_tool.pdb
 C:\Users\L1nY4n\Documents\work\hardwork_client\PortComSensors\obj\Debug\SenserProj.FormCalibrate.resources
+C:\Users\L1nY4n\Documents\work\hardwork_client\PortComSensors\obj\Debug\SensorVr.csprojAssemblyReference.cache

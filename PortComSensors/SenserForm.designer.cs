@@ -126,11 +126,11 @@
             this.label_humi = new System.Windows.Forms.Label();
             this.humi = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.loopTime)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.id)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.temp_dw)).BeginInit();
@@ -145,11 +145,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.ch4_up)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.getThresholdTime)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -472,7 +472,7 @@
             // label_ch4
             // 
             this.label_ch4.BackColor = System.Drawing.Color.Transparent;
-            this.label_ch4.Font = new System.Drawing.Font("楷体", 10.47273F, System.Drawing.FontStyle.Bold);
+            this.label_ch4.Font = new System.Drawing.Font("楷体", 9.163636F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_ch4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label_ch4.Location = new System.Drawing.Point(341, 147);
             this.label_ch4.Name = "label_ch4";
@@ -484,7 +484,7 @@
             // label_h2s
             // 
             this.label_h2s.BackColor = System.Drawing.Color.Transparent;
-            this.label_h2s.Font = new System.Drawing.Font("楷体", 10.47273F, System.Drawing.FontStyle.Bold);
+            this.label_h2s.Font = new System.Drawing.Font("楷体", 9.163636F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_h2s.ForeColor = System.Drawing.Color.Black;
             this.label_h2s.Location = new System.Drawing.Point(506, 149);
             this.label_h2s.Name = "label_h2s";
@@ -496,7 +496,7 @@
             // label_co
             // 
             this.label_co.BackColor = System.Drawing.Color.Transparent;
-            this.label_co.Font = new System.Drawing.Font("楷体", 10.47273F, System.Drawing.FontStyle.Bold);
+            this.label_co.Font = new System.Drawing.Font("楷体", 9.163636F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_co.ForeColor = System.Drawing.Color.Black;
             this.label_co.Location = new System.Drawing.Point(324, 328);
             this.label_co.Name = "label_co";
@@ -508,7 +508,7 @@
             // label_o2
             // 
             this.label_o2.BackColor = System.Drawing.Color.Transparent;
-            this.label_o2.Font = new System.Drawing.Font("楷体", 10.47273F, System.Drawing.FontStyle.Bold);
+            this.label_o2.Font = new System.Drawing.Font("楷体", 9.163636F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_o2.ForeColor = System.Drawing.Color.Black;
             this.label_o2.Location = new System.Drawing.Point(507, 328);
             this.label_o2.Name = "label_o2";
@@ -520,7 +520,7 @@
             // label_temp
             // 
             this.label_temp.BackColor = System.Drawing.Color.Transparent;
-            this.label_temp.Font = new System.Drawing.Font("楷体", 10.47273F, System.Drawing.FontStyle.Bold);
+            this.label_temp.Font = new System.Drawing.Font("楷体", 9.163636F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_temp.ForeColor = System.Drawing.Color.Black;
             this.label_temp.Location = new System.Drawing.Point(340, 511);
             this.label_temp.Name = "label_temp";
@@ -581,6 +581,7 @@
             // temp_calibrate
             // 
             this.temp_calibrate.BackColor = System.Drawing.Color.Gainsboro;
+            this.temp_calibrate.Enabled = false;
             this.temp_calibrate.Font = new System.Drawing.Font("楷体", 9.163636F, System.Drawing.FontStyle.Bold);
             this.temp_calibrate.Location = new System.Drawing.Point(297, 310);
             this.temp_calibrate.Name = "temp_calibrate";
@@ -877,7 +878,7 @@
             this.label19.Font = new System.Drawing.Font("楷体", 10.47273F, System.Drawing.FontStyle.Bold);
             this.label19.Location = new System.Drawing.Point(36, 319);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(42, 16);
+            this.label19.Size = new System.Drawing.Size(46, 17);
             this.label19.TabIndex = 100;
             this.label19.Text = "温度";
             // 
@@ -887,7 +888,7 @@
             this.label20.Font = new System.Drawing.Font("楷体", 10.47273F, System.Drawing.FontStyle.Bold);
             this.label20.Location = new System.Drawing.Point(36, 279);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(42, 16);
+            this.label20.Size = new System.Drawing.Size(46, 17);
             this.label20.TabIndex = 99;
             this.label20.Text = "氧气";
             // 
@@ -897,7 +898,7 @@
             this.label21.Font = new System.Drawing.Font("楷体", 10.47273F, System.Drawing.FontStyle.Bold);
             this.label21.Location = new System.Drawing.Point(6, 237);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(76, 16);
+            this.label21.Size = new System.Drawing.Size(84, 17);
             this.label21.TabIndex = 98;
             this.label21.Text = "一氧化碳";
             // 
@@ -907,7 +908,7 @@
             this.label22.Font = new System.Drawing.Font("楷体", 10.47273F, System.Drawing.FontStyle.Bold);
             this.label22.Location = new System.Drawing.Point(23, 197);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(59, 16);
+            this.label22.Size = new System.Drawing.Size(65, 17);
             this.label22.TabIndex = 97;
             this.label22.Text = "硫化氢";
             // 
@@ -917,7 +918,7 @@
             this.label23.Font = new System.Drawing.Font("楷体", 10.47273F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label23.Location = new System.Drawing.Point(28, 159);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(42, 16);
+            this.label23.Size = new System.Drawing.Size(46, 17);
             this.label23.TabIndex = 96;
             this.label23.Text = "甲烷";
             // 
@@ -1247,7 +1248,7 @@
             // label_humi
             // 
             this.label_humi.BackColor = System.Drawing.Color.Transparent;
-            this.label_humi.Font = new System.Drawing.Font("楷体", 10.47273F, System.Drawing.FontStyle.Bold);
+            this.label_humi.Font = new System.Drawing.Font("楷体", 9.163636F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_humi.ForeColor = System.Drawing.Color.Black;
             this.label_humi.Location = new System.Drawing.Point(504, 511);
             this.label_humi.Name = "label_humi";
@@ -1307,32 +1308,14 @@
             this.groupBox1.TabIndex = 116;
             this.groupBox1.TabStop = false;
             // 
-            // pictureBox1
+            // pictureBox5
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(8, 545);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(31, 33);
-            this.pictureBox1.TabIndex = 126;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(6, 19);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox2.TabIndex = 126;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(6, 77);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox3.TabIndex = 127;
-            this.pictureBox3.TabStop = false;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(220, 112);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox5.TabIndex = 129;
+            this.pictureBox5.TabStop = false;
             // 
             // pictureBox4
             // 
@@ -1343,14 +1326,32 @@
             this.pictureBox4.TabIndex = 128;
             this.pictureBox4.TabStop = false;
             // 
-            // pictureBox5
+            // pictureBox3
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(220, 112);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox5.TabIndex = 129;
-            this.pictureBox5.TabStop = false;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(6, 77);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox3.TabIndex = 127;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox2.TabIndex = 126;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(8, 545);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 33);
+            this.pictureBox1.TabIndex = 126;
+            this.pictureBox1.TabStop = false;
             // 
             // SenserForm
             // 
@@ -1450,11 +1451,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.getThresholdTime)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
